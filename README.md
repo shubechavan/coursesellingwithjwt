@@ -16,7 +16,7 @@ This project demonstrates a simple implementation of JWT (JSON Web Token) authen
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone (https://github.com/shubechavan/coursesellingwithjwt)
    ```
 
 2. Navigate to the project directory:
