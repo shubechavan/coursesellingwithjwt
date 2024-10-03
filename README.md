@@ -68,7 +68,7 @@ This project demonstrates a simple implementation of JWT (JSON Web Token) authen
 
 ## Models
 
-- **Admin**: Represents the admin users.
+- **Admin**: Represents the Admin users.
 - **User**: Represents the regular users and their purchased courses.
 - **Course**: Represents the courses available for purchase.
 
