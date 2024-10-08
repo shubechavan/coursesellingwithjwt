@@ -16,7 +16,7 @@ function adminMiddleware(req, res, next) {
 
     try {
         const decoded = jwt.verify(token, JWT_SECRET);
-        req.admin = decoded; // Attach decoded token data to request
+        req.admin = decoded; // Attach decoded token data to requests
         next();
     } catch (error) {
         res.status(403).json({ msg: "Invalid or expired token" });
