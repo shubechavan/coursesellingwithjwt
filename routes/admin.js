@@ -29,7 +29,7 @@ router.post('/signin', async (req, res) => {
     }
 });
 
-// Additional routes for courses...
+// Additional routes for courses
 router.post('/courses', adminMiddleware, async (req, res) => {
     const { title, description, price, imagelink } = req.body;
     try {
