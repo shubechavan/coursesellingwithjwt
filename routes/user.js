@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const { JWT_SECRET } = require("../config");
 // User Routes
 router.post('/signup', async(req, res) => {
-    // Implement user signup logic
+ 
     const { username, password } = req.body;
     try {
         await User.create({ username, password });
