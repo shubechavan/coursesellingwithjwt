@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const adminRouter = require('./routes/admin');
 const userRouter = require('./routes/user');
 
-// Initialize Express
+
 const app = express();
 const http = require('http').createServer(app);
 
@@ -20,5 +20,5 @@ http.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
 
-const JWT_SECRET = "SHUBHAM_SERVER"; // Ensure this is properly exported
+const JWT_SECRET = "SHUBHAM_SERVER"; 
 module.exports = { JWT_SECRET };
