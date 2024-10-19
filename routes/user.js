@@ -42,7 +42,7 @@ router.post('/courses/:courseId', userMiddleware, async (req, res) => {
     const username = req.headers.username;  // Extract username from headers or JWT middleware
 
     try {
-        // Log the username to verify if it's being passed correctly
+        
         console.log("Username received:", username);
 
         // Check if the user exists in the database
