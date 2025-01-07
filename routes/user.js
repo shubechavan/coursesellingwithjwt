@@ -4,7 +4,7 @@ const { User, Course } = require("../db");
 const router = express.Router();
 const jwt = require("jsonwebtoken");
 const { JWT_SECRET } = require("../config");
-// User Routes
+
 router.post('/signup', async(req, res) => {
  
     const { username, password } = req.body;
